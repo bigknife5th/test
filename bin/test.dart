@@ -6,7 +6,7 @@ void main(List<String> arguments) {
 
 Future<void> _test() async {
   FTPConnect ftpConnect = FTPConnect('192.168.0.139',
-      port: 21, user: 'bigknife', pass: 'Ab1234567');
+      port: 21, user: 'bigknife', pass: 'Ab1234567@@@g');
   bool res = false;
   res = await ftpConnect.connect();
   print('connect:$res');
